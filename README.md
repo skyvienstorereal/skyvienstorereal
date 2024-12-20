@@ -15,7 +15,15 @@
     }
     h1 {
       text-align: center;
-      color: #00bfff;
+      font-size: 36px;
+      animation: warnaJudul 1s infinite;
+    }
+    @keyframes warnaJudul {
+      0% { color: #00bfff; }
+      25% { color: #ff6666; }
+      50% { color: #00ff00; }
+      75% { color: #ffcc00; }
+      100% { color: #00bfff; }
     }
     .panel-list {
       background: #333333;
@@ -25,6 +33,14 @@
     }
     .panel-item {
       margin-bottom: 10px;
+      animation: warnaTeks 1s infinite;
+    }
+    @keyframes warnaTeks {
+      0% { color: #ffffff; }
+      25% { color: #66ccff; }
+      50% { color: #ff9999; }
+      75% { color: #99ff99; }
+      100% { color: #ffffff; }
     }
     .cta {
       margin-top: 20px;
@@ -38,6 +54,12 @@
       padding: 10px 20px;
       border-radius: 5px;
       font-weight: bold;
+      animation: warnaTombol 1s infinite;
+    }
+    @keyframes warnaTombol {
+      0% { background: #00bfff; }
+      50% { background: #0099cc; }
+      100% { background: #00bfff; }
     }
     .cta a:hover {
       background: #0099cc;
@@ -50,7 +72,12 @@
       text-align: center;
       font-weight: bold;
       margin-bottom: 10px;
-      color: #ff6666;
+      animation: warnaWarning 1s infinite;
+    }
+    @keyframes warnaWarning {
+      0% { color: #ff6666; }
+      50% { color: #ffffff; }
+      100% { color: #ff6666; }
     }
   </style>
 </head>

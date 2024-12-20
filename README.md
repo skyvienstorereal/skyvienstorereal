@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,18 +7,18 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f8ff;
-      color: #333;
+      background-color: #1a1a1a;
+      color: #ffffff;
       margin: 0;
       padding: 20px;
       line-height: 1.6;
     }
     h1 {
       text-align: center;
-      color: #0047ab;
+      color: #00bfff;
     }
     .panel-list {
-      background: #e0f7ff;
+      background: #333333;
       padding: 20px;
       border-radius: 10px;
       margin: 20px 0;
@@ -33,21 +33,24 @@
     .cta a {
       display: inline-block;
       text-decoration: none;
-      background: #0047ab;
-      color: white;
+      background: #00bfff;
+      color: #1a1a1a;
       padding: 10px 20px;
       border-radius: 5px;
       font-weight: bold;
     }
     .cta a:hover {
-      background: #003580;
+      background: #0099cc;
     }
     .payment {
       text-align: center;
       margin-top: 20px;
     }
-    .payment img {
-      width: 100px;
+    .warning {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #ff6666;
     }
   </style>
 </head>
@@ -72,8 +75,8 @@
     <a href="https://wa.me/6285283253700?text=BANG+MAU+BELI+PANEL+NYA+DONGZZ" target="_blank">CHAT WA</a>
   </div>
   <div class="payment">
-    <p>Payment:</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dana_logo.svg/1200px-Dana_logo.svg.png" alt="Dana Logo">
+    <p class="warning">NOMOR REAL SKYVIEN HANYA DIATAS, SELAIN ITU CLONE!</p>
+    <p>Payment: Dana</p>
   </div>
 </body>
 </html>
